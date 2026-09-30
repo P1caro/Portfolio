@@ -1,58 +1,960 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Home | Piero Christian Ronaldo</title><meta name="description" content="Computer Science Student at BINUS Alam Sutera | AI Track | Aspiring AI &amp; Software Engineer"><script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");document.documentElement.dataset.theme=t}catch(e){}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Mr+Dafoe&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body id="top">
-<header class="top"><div class="wrap"><nav>
-<a class="brand" href="index.html"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><path d="M15 57c4-19 8-35 11-43 1-4 4-6 7-6 6 0 10 5 9 11-1 8-9 14-19 15 4 1 8 1 11 0"/></svg><span>Piero Christian Ronaldo<small>Tangerang, Banten, Indonesia</small></span></a>
-<div class="navr"><ul><li><a href="#top" data-spy="#top" class="on">Home</a></li><li><a href="#about" data-spy="#about" class="">About</a></li><li><a href="projects.html" class="">Projects</a></li></ul><button class="tog" id="tog" aria-label="Toggle dark and light mode"><svg class="moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg><svg class="sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-2.93 1.41-1.41m11.32-11.32 1.41-1.41M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41"/></svg></button></div>
-</nav></div></header>
-<main class="wrap"><div class="hero"><div><p class="spread"><b style="animation-delay:0.00s">P</b><b style="animation-delay:0.06s">O</b><b style="animation-delay:0.12s">R</b><b style="animation-delay:0.18s">T</b><b style="animation-delay:0.24s">F</b><b style="animation-delay:0.30s">O</b><b style="animation-delay:0.36s">L</b><b style="animation-delay:0.42s">I</b><b style="animation-delay:0.48s">O</b></p>
-<h1 class="sig" aria-label="Piero Christian Ronaldo"><span class="a">Piero</span> <span class="b">Christian Ronaldo</span></h1>
-<p class="role fu d2">Computer Science Student at BINUS Alam Sutera <i>|</i> AI Track <i>|</i> Aspiring AI &amp; Software Engineer</p>
-<div class="status fu d3"><span class="beacon"><i></i></span><div class="txt">
-<span class="tagline">Available now</span>
-<b>Open to internships and collaborations</b>
-<small>Currently a Computer Science student at BINUS University</small></div></div></div>
-<div class="fu d4"><div class="ph tall portrait" data-file="image/profile.jpg"><img src="image/profile.jpg" alt="Piero Christian Ronaldo" onerror="this.remove()"></div><p class="cap">Tangerang, Banten, Indonesia</p></div></div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Home | Piero Christian Ronaldo</title>
+    <meta
+      name="description"
+      content="Computer Science Student at BINUS Alam Sutera | AI Track | Aspiring AI &amp; Software Engineer"
+    />
+    <script>
+      try {
+        var t =
+          localStorage.getItem("theme") ||
+          (matchMedia("(prefers-color-scheme:dark)").matches
+            ? "dark"
+            : "light");
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Mr+Dafoe&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <header class="top">
+      <div class="wrap">
+        <nav>
+          <a class="brand" href="index.html"
+            ><svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+              <path
+                d="M15 57c4-19 8-35 11-43 1-4 4-6 7-6 6 0 10 5 9 11-1 8-9 14-19 15 4 1 8 1 11 0"
+              /></svg
+            ><span
+              >Piero Christian Ronaldo<small
+                >Tangerang, Banten, Indonesia</small
+              ></span
+            ></a
+          >
+          <div class="navr">
+            <ul>
+              <li><a href="#top" data-spy="#top" class="on">Home</a></li>
+              <li><a href="#about" data-spy="#about" class="">About</a></li>
+              <li><a href="projects.html" class="">Projects</a></li>
+            </ul>
+            <button
+              class="tog"
+              id="tog"
+              aria-label="Toggle dark and light mode"
+            >
+              <svg
+                class="moon"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg
+              ><svg
+                class="sun"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path
+                  d="M12 2v2M12 20v2m-7.07-2.93 1.41-1.41m11.32-11.32 1.41-1.41M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41"
+                />
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="hero">
+        <div>
+          <p class="spread">
+            <b style="animation-delay: 0s">P</b
+            ><b style="animation-delay: 0.06s">O</b
+            ><b style="animation-delay: 0.12s">R</b
+            ><b style="animation-delay: 0.18s">T</b
+            ><b style="animation-delay: 0.24s">F</b
+            ><b style="animation-delay: 0.3s">O</b
+            ><b style="animation-delay: 0.36s">L</b
+            ><b style="animation-delay: 0.42s">I</b
+            ><b style="animation-delay: 0.48s">O</b>
+          </p>
+          <h1 class="sig" aria-label="Piero Christian Ronaldo">
+            <span class="a">Piero</span>
+            <span class="b">Christian Ronaldo</span>
+          </h1>
+          <p class="role fu d2">
+            Computer Science Student at BINUS Alam Sutera <i>|</i> AI Track
+            <i>|</i> Aspiring AI &amp; Software Engineer
+          </p>
+          <div class="status fu d3">
+            <span class="beacon"><i></i></span>
+            <div class="txt">
+              <span class="tagline">Available now</span>
+              <b>Open to internships and collaborations</b>
+              <small
+                >Currently a Computer Science student at BINUS University</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="fu d4">
+          <div class="ph tall portrait" data-file="image/profile.jpg">
+            <img
+              src="image/profile.jpg"
+              alt="Piero Christian Ronaldo"
+              onerror="this.remove()"
+            />
+          </div>
+          <p class="cap">Tangerang, Banten, Indonesia</p>
+        </div>
+      </div>
 
-<section id="about"><p class="label rv">About</p>
-<div class="about"><div class="frame rv"><div class="ph " data-file="image/about.jpg"><img src="image/about.jpg" alt="Piero Christian Ronaldo" onerror="this.remove()"></div><span class="shine"></span></div>
-<div class="abouttext"><p class="statement rv">I'm a Computer Science student at BINUS University with a strong focus on <em>front-end development</em>. I love bringing ideas to life in the browser and creating seamless digital experiences. Recently, I've been focused on building dynamic web applications and continuously refining my UI/UX skills. I'm always eager to tackle new design challenges, and I'm even practicing conversational Mandarin on the side to broaden my communication skills.</p>
-<div class="cols rv d1" style="margin-top:28px"><p>Front-end development is where I spend most of my time. I care about interfaces that feel fast, readable, and considered down to the spacing, and I enjoy the part of the work where a rough idea turns into something people can actually click through.</p><p>UI/UX design sits right next to that for me: wireframing, iterating on layouts, and testing whether a flow makes sense before a line of code is written. And when a project needs backend work, APIs, data handling, or model integration, I'm glad to step in and help get it done.</p></div></div></div></section>
+      <section id="about">
+        <p class="label rv">About</p>
+        <div class="about">
+          <div class="frame rv">
+            <div class="ph" data-file="image/about.jpg">
+              <img
+                src="image/about.jpg"
+                alt="Piero Christian Ronaldo"
+                onerror="this.remove()"
+              />
+            </div>
+            <span class="shine"></span>
+          </div>
+          <div class="abouttext">
+            <p class="statement rv">
+              I'm a Computer Science student at BINUS University with a strong
+              focus on <em>front-end development</em>. I love bringing ideas to
+              life in the browser and creating seamless digital experiences.
+              Recently, I've been focused on building dynamic web applications
+              and continuously refining my UI/UX skills. I'm always eager to
+              tackle new design challenges, and I'm even practicing
+              conversational Mandarin on the side to broaden my communication
+              skills.
+            </p>
+            <div class="cols rv d1" style="margin-top: 28px">
+              <p>
+                Front-end development is where I spend most of my time. I care
+                about interfaces that feel fast, readable, and considered down
+                to the spacing, and I enjoy the part of the work where a rough
+                idea turns into something people can actually click through.
+              </p>
+              <p>
+                UI/UX design sits right next to that for me: wireframing,
+                iterating on layouts, and testing whether a flow makes sense
+                before a line of code is written. And when a project needs
+                backend work, APIs, data handling, or model integration, I'm
+                glad to step in and help get it done.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="background"><p class="label rv">Background</p>
-<h2 class="rv" style="font-size:clamp(26px,3vw,34px);margin-top:18px">Education</h2><div class="block rv"><div class="bhead"><div class="crest" data-file="image/binus.png"><img src="image/binus.png" alt="BINUS University logo" onerror="this.remove()"></div>
-<div class="who"><h3>BINUS University</h3><p class="sub">Undergraduate Student</p><div class="bmeta">
-<span class="chip date"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>Aug 2024 - Present<i class="now"></i></span><span class="chip">Computer Science | AI Streaming</span></div></div>
-<a class="loc" href="https://www.google.com/maps/search/?api=1&query=BINUS+University+Alam+Sutera" target="_blank" rel="noopener"><span class="pin"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><span><small>Location</small><b>BINUS Alam Sutera</b></span></a></div>
-<div class="rulel"></div>
-<p class="subh">WHAT I LEARN THERE</p>
-<div class="pills small" id="courses"><span>Python</span><span>C++</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>Machine Learning</span><span>Deep Learning</span><span>Computer Vision</span><span>Artificial Intelligence (AI)</span><span>Data Structures</span><span>React.js</span><span>Web Development</span><span class="more">Algorithm and Programming</span><span class="more">Algorithm Design and Analysis</span><span class="more">Basic Statistics</span><span class="more">Discrete Mathematics</span><span class="more">Linear Algebra</span><span class="more">Calculus</span><span class="more">Program Design Method</span><span class="more">Creativity and Innovation</span><span class="more">Human and Computer Interaction</span><span class="more">Scientific Computing</span><span class="more">Computational Physics</span><span class="more">Computer Networking</span><span class="more">Database Technology</span><span class="more">Object-Oriented Programming (OOP)</span><span class="more">Cisco Routers</span><span class="more">Anaconda</span><span class="more">Computational Biology</span><span class="more">Natural Language Processing (NLP)</span><span class="more">Research Methods</span><span class="more">Software Systems Engineering</span><span class="more">BLAST</span><span class="more">Random Forest</span><span class="more">YOLO</span><span class="more">CNN</span><span class="more">Compilation Techniques</span><span class="more">Operating Systems</span><span class="more">Speech Recognition</span><span class="more">Venture Creation</span><span class="more">Programming</span><span class="more">Front-End Design</span><span class="more">Front-end Coding</span><span class="more">Back-End Web Development</span><span class="more">Laravel</span><span class="more">Linux</span><span class="more">HTML</span></div>
-<button class="showmore" type="button" data-target="courses" aria-expanded="false"
-data-less="Show fewer" data-more="See all 47 subjects"><span>See all 47 subjects</span><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button></div>
-<h2 class="rv" style="font-size:clamp(26px,3vw,34px);margin-top:56px">Experience</h2><div class="block rv"><div class="bhead"><div class="crest" data-file="image/pja.jpeg"><img src="image/pja.jpeg" alt="PT Piero Jaya Abadi logo" onerror="this.remove()"></div>
-<div class="who"><h3>PT Piero Jaya Abadi</h3><p class="sub">Assistant</p><div class="bmeta">
-<span class="chip date"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>June 2024 - Present<i class="now"></i></span></div></div>
-<a class="loc" href="https://maps.app.goo.gl/ybY52k2vxXVAtdRU6" target="_blank" rel="noopener"><span class="pin"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><span><small>Location</small><b>PT Piero Jaya Abadi</b></span></a></div>
-<div class="rulel"></div>
-<p class="subh">What I do there</p><ul class="jd"><li>Executed monthly payroll processing and managed financial administration accurately within the finance department.</li><li>Recorded and evaluated sample bag dimensions to facilitate the design and development of new product lines.</li></ul>
-<p class="subh">WHAT I LEARN THERE</p><div class="pills small"><span>Accounting</span><span>Bookkeeping</span><span>Cross-functional Collaborations</span><span>Data Accuracy &amp; Attention to Detail</span><span>Data Recording &amp; Evaluation</span><span>Financial Management</span><span>Payroll Management</span><span>Product Development</span><span>Quality Control &amp; Measurement</span><span>Specification Analysis</span></div></div></section>
+      <section id="background">
+        <p class="label rv">Background</p>
+        <h2
+          class="rv"
+          style="font-size: clamp(26px, 3vw, 34px); margin-top: 18px"
+        >
+          Education
+        </h2>
+        <div class="block rv">
+          <div class="bhead">
+            <div class="crest" data-file="image/binus.png">
+              <img
+                src="image/binus.png"
+                alt="BINUS University logo"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="who">
+              <h3>BINUS University</h3>
+              <p class="sub">Undergraduate Student</p>
+              <div class="bmeta">
+                <span class="chip date"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    width="15"
+                    height="15"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="16" rx="2" />
+                    <path d="M16 3v4M8 3v4M3 11h18" /></svg
+                  >Aug 2024 - Present<i class="now"></i></span
+                ><span class="chip">Computer Science | AI Streaming</span>
+              </div>
+            </div>
+            <a
+              class="loc"
+              href="https://www.google.com/maps/search/?api=1&query=BINUS+University+Alam+Sutera"
+              target="_blank"
+              rel="noopener"
+              ><span class="pin"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" /></svg></span
+              ><span><small>Location</small><b>BINUS Alam Sutera</b></span></a
+            >
+          </div>
+          <div class="rulel"></div>
+          <p class="subh">WHAT I LEARN THERE</p>
+          <div class="pills small" id="courses">
+            <span>Python</span><span>C++</span><span>Java</span
+            ><span>JavaScript</span><span>SQL</span><span>Machine Learning</span
+            ><span>Deep Learning</span><span>Computer Vision</span
+            ><span>Artificial Intelligence (AI)</span
+            ><span>Data Structures</span><span>React.js</span
+            ><span>Web Development</span
+            ><span class="more">Algorithm and Programming</span
+            ><span class="more">Algorithm Design and Analysis</span
+            ><span class="more">Basic Statistics</span
+            ><span class="more">Discrete Mathematics</span
+            ><span class="more">Linear Algebra</span
+            ><span class="more">Calculus</span
+            ><span class="more">Program Design Method</span
+            ><span class="more">Creativity and Innovation</span
+            ><span class="more">Human and Computer Interaction</span
+            ><span class="more">Scientific Computing</span
+            ><span class="more">Computational Physics</span
+            ><span class="more">Computer Networking</span
+            ><span class="more">Database Technology</span
+            ><span class="more">Object-Oriented Programming (OOP)</span
+            ><span class="more">Cisco Routers</span
+            ><span class="more">Anaconda</span
+            ><span class="more">Computational Biology</span
+            ><span class="more">Natural Language Processing (NLP)</span
+            ><span class="more">Research Methods</span
+            ><span class="more">Software Systems Engineering</span
+            ><span class="more">BLAST</span
+            ><span class="more">Random Forest</span
+            ><span class="more">YOLO</span><span class="more">CNN</span
+            ><span class="more">Compilation Techniques</span
+            ><span class="more">Operating Systems</span
+            ><span class="more">Speech Recognition</span
+            ><span class="more">Venture Creation</span
+            ><span class="more">Programming</span
+            ><span class="more">Front-End Design</span
+            ><span class="more">Front-end Coding</span
+            ><span class="more">Back-End Web Development</span
+            ><span class="more">Laravel</span><span class="more">Linux</span
+            ><span class="more">HTML</span>
+          </div>
+          <button
+            class="showmore"
+            type="button"
+            data-target="courses"
+            aria-expanded="false"
+            data-less="Show fewer"
+            data-more="See all 47 subjects"
+          >
+            <span>See all 47 subjects</span
+            ><svg
+              viewBox="0 0 24 24"
+              width="15"
+              height="15"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+        </div>
+        <h2
+          class="rv"
+          style="font-size: clamp(26px, 3vw, 34px); margin-top: 56px"
+        >
+          Experience
+        </h2>
+        <div class="block rv">
+          <div class="bhead">
+            <div class="crest" data-file="image/pja.jpeg">
+              <img
+                src="image/pja.jpeg"
+                alt="PT Piero Jaya Abadi logo"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="who">
+              <h3>PT Piero Jaya Abadi</h3>
+              <p class="sub">Assistant</p>
+              <div class="bmeta">
+                <span class="chip date"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    width="15"
+                    height="15"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="16" rx="2" />
+                    <path d="M16 3v4M8 3v4M3 11h18" /></svg
+                  >June 2024 - Present<i class="now"></i
+                ></span>
+              </div>
+            </div>
+            <a
+              class="loc"
+              href="https://maps.app.goo.gl/ybY52k2vxXVAtdRU6"
+              target="_blank"
+              rel="noopener"
+              ><span class="pin"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" /></svg></span
+              ><span><small>Location</small><b>PT Piero Jaya Abadi</b></span></a
+            >
+          </div>
+          <div class="rulel"></div>
+          <p class="subh">What I do there</p>
+          <ul class="jd">
+            <li>
+              Executed monthly payroll processing and managed financial
+              administration accurately within the finance department.
+            </li>
+            <li>
+              Recorded and evaluated sample bag dimensions to facilitate the
+              design and development of new product lines.
+            </li>
+          </ul>
+          <p class="subh">WHAT I LEARN THERE</p>
+          <div class="pills small">
+            <span>Accounting</span><span>Bookkeeping</span
+            ><span>Cross-functional Collaborations</span
+            ><span>Data Accuracy &amp; Attention to Detail</span
+            ><span>Data Recording &amp; Evaluation</span
+            ><span>Financial Management</span><span>Payroll Management</span
+            ><span>Product Development</span
+            ><span>Quality Control &amp; Measurement</span
+            ><span>Specification Analysis</span>
+          </div>
+        </div>
+      </section>
 
-<section><p class="label rv">Capabilities</p>
-<h2 class="rv" style="font-size:clamp(24px,2.6vw,30px);margin-top:18px">Skill</h2>
-<div class="skills"><div class="sk rv"><h4><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18M7 14l3-3 3 3 5-5"/></svg>Front-End</h4><div class="pills"><span>React.js</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Laravel</span><span>Front-End Design</span><span>Responsive UI</span></div></div><div class="sk rv"><h4><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5ZM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>Design</h4><div class="pills"><span>UI / UX Design</span><span>Figma</span><span>Prototyping</span></div></div><div class="sk rv"><h4><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 1 5 5v1a4 4 0 0 1 0 8v1a5 5 0 0 1-10 0v-1a4 4 0 0 1 0-8V7a5 5 0 0 1 5-5Z"/></svg>AI &amp; Data</h4><div class="pills"><span>Machine Learning</span><span>Computer Vision</span><span>NLP</span><span>YOLO</span><span>CNN</span><span>Bioinformatics</span></div></div><div class="sk rv"><h4><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6m8-12 6 6-6 6"/></svg>Engineering</h4><div class="pills"><span>Python</span><span>C++</span><span>SQL</span><span>Git &amp; GitHub</span><span>Linux</span></div></div><div class="sk rv"><h4><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm13 18v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Soft Skills</h4><div class="pills"><span>Communicative</span><span>Multitasking</span><span>Teamwork</span><span>Problem Solving</span><span>Creativity</span><span>Finance</span></div></div></div>
-<h2 class="rv" style="font-size:clamp(24px,2.6vw,30px);margin-top:64px">Languages</h2>
-<div class="langwrap block"><div class="langs"><div class="lang rv"><b>Indonesian<i>Native, everyday language</i></b><div class="bar"><span style="--w:100%;background:#2a78d6"></span></div></div><div class="lang rv"><b>Chinese<i>HSK 4, upper intermediate</i></b><div class="bar"><span style="--w:70%;background:#eb6834"></span></div></div><div class="lang rv"><b>English<i>Intermediate, working proficiency</i></b><div class="bar"><span style="--w:60%;background:#1baf7a"></span></div></div></div><style>.ring{--l1:#2a78d6;--l2:#eb6834;--l3:#1baf7a}:root[data-theme=dark] .ring{--l1:#3987e5;--l2:#d95926;--l3:#199e70}@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .ring{--l1:#3987e5;--l2:#d95926;--l3:#199e70}}</style><div class="ring rv"><svg viewBox="0 0 200 200" role="img" aria-label="Language proficiency: Indonesian 100 percent, Chinese 70 percent, English 60 percent"><circle class="track" cx="100" cy="100" r="72"></circle><circle class="arc" cx="100" cy="100" r="72" stroke="var(--l1)" stroke-dasharray="452.4" stroke-dashoffset="452.4" data-off="0.0" transform="rotate(-90 100 100)"></circle><circle class="track" cx="100" cy="100" r="51"></circle><circle class="arc" cx="100" cy="100" r="51" stroke="var(--l2)" stroke-dasharray="320.4" stroke-dashoffset="320.4" data-off="96.1" transform="rotate(-90 100 100)"></circle><circle class="track" cx="100" cy="100" r="30"></circle><circle class="arc" cx="100" cy="100" r="30" stroke="var(--l3)" stroke-dasharray="188.5" stroke-dashoffset="188.5" data-off="75.4" transform="rotate(-90 100 100)"></circle></svg><div class="rlegend"><div><i style="background:var(--l1)"></i>Indonesian<b>100%</b></div><div><i style="background:var(--l2)"></i>Chinese<b>70%</b></div><div><i style="background:var(--l3)"></i>English<b>60%</b></div></div></div></div></section>
+      <section>
+        <p class="label rv">Capabilities</p>
+        <h2
+          class="rv"
+          style="font-size: clamp(24px, 2.6vw, 30px); margin-top: 18px"
+        >
+          Skill
+        </h2>
+        <div class="skills">
+          <div class="sk rv">
+            <h4>
+              <svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 3v18h18M7 14l3-3 3 3 5-5" /></svg
+              >Front-End
+            </h4>
+            <div class="pills">
+              <span>React.js</span><span>HTML</span><span>CSS</span
+              ><span>JavaScript</span><span>Laravel</span
+              ><span>Front-End Design</span><span>Responsive UI</span>
+            </div>
+          </div>
+          <div class="sk rv">
+            <h4>
+              <svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2 2 7l10 5 10-5-10-5ZM2 17l10 5 10-5M2 12l10 5 10-5"
+                /></svg
+              >Design
+            </h4>
+            <div class="pills">
+              <span>UI / UX Design</span><span>Figma</span
+              ><span>Prototyping</span>
+            </div>
+          </div>
+          <div class="sk rv">
+            <h4>
+              <svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2a5 5 0 0 1 5 5v1a4 4 0 0 1 0 8v1a5 5 0 0 1-10 0v-1a4 4 0 0 1 0-8V7a5 5 0 0 1 5-5Z"
+                /></svg
+              >AI &amp; Data
+            </h4>
+            <div class="pills">
+              <span>Machine Learning</span><span>Computer Vision</span
+              ><span>NLP</span><span>YOLO</span><span>CNN</span
+              ><span>Bioinformatics</span>
+            </div>
+          </div>
+          <div class="sk rv">
+            <h4>
+              <svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m8 6-6 6 6 6m8-12 6 6-6 6" /></svg
+              >Engineering
+            </h4>
+            <div class="pills">
+              <span>Python</span><span>C++</span><span>SQL</span
+              ><span>Git &amp; GitHub</span><span>Linux</span>
+            </div>
+          </div>
+          <div class="sk rv">
+            <h4>
+              <svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm13 18v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+                /></svg
+              >Soft Skills
+            </h4>
+            <div class="pills">
+              <span>Communicative</span><span>Multitasking</span
+              ><span>Teamwork</span><span>Problem Solving</span
+              ><span>Creativity</span><span>Finance</span>
+            </div>
+          </div>
+        </div>
+        <h2
+          class="rv"
+          style="font-size: clamp(24px, 2.6vw, 30px); margin-top: 64px"
+        >
+          Languages
+        </h2>
+        <div class="langwrap block">
+          <div class="langs">
+            <div class="lang rv">
+              <b>Indonesian<i>Native, everyday language</i></b>
+              <div class="bar">
+                <span style="--w: 100%; background: #2a78d6"></span>
+              </div>
+            </div>
+            <div class="lang rv">
+              <b>Chinese<i>HSK 4, upper intermediate</i></b>
+              <div class="bar">
+                <span style="--w: 70%; background: #eb6834"></span>
+              </div>
+            </div>
+            <div class="lang rv">
+              <b>English<i>Intermediate, working proficiency</i></b>
+              <div class="bar">
+                <span style="--w: 60%; background: #1baf7a"></span>
+              </div>
+            </div>
+          </div>
+          <style>
+            .ring {
+              --l1: #2a78d6;
+              --l2: #eb6834;
+              --l3: #1baf7a;
+            }
+            :root[data-theme="dark"] .ring {
+              --l1: #3987e5;
+              --l2: #d95926;
+              --l3: #199e70;
+            }
+            @media (prefers-color-scheme: dark) {
+              :root:not([data-theme="light"]) .ring {
+                --l1: #3987e5;
+                --l2: #d95926;
+                --l3: #199e70;
+              }
+            }
+          </style>
+          <div class="ring rv">
+            <svg
+              viewBox="0 0 200 200"
+              role="img"
+              aria-label="Language proficiency: Indonesian 100 percent, Chinese 70 percent, English 60 percent"
+            >
+              <circle class="track" cx="100" cy="100" r="72"></circle>
+              <circle
+                class="arc"
+                cx="100"
+                cy="100"
+                r="72"
+                stroke="var(--l1)"
+                stroke-dasharray="452.4"
+                stroke-dashoffset="452.4"
+                data-off="0.0"
+                transform="rotate(-90 100 100)"
+              ></circle>
+              <circle class="track" cx="100" cy="100" r="51"></circle>
+              <circle
+                class="arc"
+                cx="100"
+                cy="100"
+                r="51"
+                stroke="var(--l2)"
+                stroke-dasharray="320.4"
+                stroke-dashoffset="320.4"
+                data-off="96.1"
+                transform="rotate(-90 100 100)"
+              ></circle>
+              <circle class="track" cx="100" cy="100" r="30"></circle>
+              <circle
+                class="arc"
+                cx="100"
+                cy="100"
+                r="30"
+                stroke="var(--l3)"
+                stroke-dasharray="188.5"
+                stroke-dashoffset="188.5"
+                data-off="75.4"
+                transform="rotate(-90 100 100)"
+              ></circle>
+            </svg>
+            <div class="rlegend">
+              <div>
+                <i style="background: var(--l1)"></i>Indonesian<b>100%</b>
+              </div>
+              <div><i style="background: var(--l2)"></i>Chinese<b>70%</b></div>
+              <div><i style="background: var(--l3)"></i>English<b>60%</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="work"><p class="label rv">Projects</p>
-<h2 class="rv" style="margin-top:16px">My Project</h2>
-<div class="slider rv"><a class="slide" href="project1.html"><div class="ph " data-file="image/img1.jpeg"><img src="image/img1.jpeg" alt="Digimart" onerror="this.remove()"></div><div class="sbody"><span class="badge">01</span><h3 class="pname">Digimart</h3><p class="pcat">Frontend Website</p><div class="facts"><div><small>Role</small><b>Frontend Developer</b></div><div><small>Year</small><b>2025</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a><a class="slide" href="project2.html"><div class="ph " data-file="image/img5.jpeg"><img src="image/img5.jpeg" alt="VSTravel" onerror="this.remove()"></div><div class="sbody"><span class="badge">02</span><h3 class="pname">VSTravel</h3><p class="pcat">Frontend Website</p><div class="facts"><div><small>Role</small><b>Full-Stack Developer</b></div><div><small>Year</small><b>2025</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a><a class="slide" href="project3.html"><div class="ph " data-file="image/img9.jpeg"><img src="image/img9.jpeg" alt="GeneMix" onerror="this.remove()"></div><div class="sbody"><span class="badge">03</span><h3 class="pname">GeneMix</h3><p class="pcat">Bioinformatics Website</p><div class="facts"><div><small>Role</small><b>Full-Stack Developer</b></div><div><small>Year</small><b>2026</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a><a class="slide" href="project4.html"><div class="ph " data-file="image/img13.jpeg"><img src="image/img13.jpeg" alt="Malaria Detection App" onerror="this.remove()"></div><div class="sbody"><span class="badge">04</span><h3 class="pname">Malaria Detection App</h3><p class="pcat">Computer Vision Website</p><div class="facts"><div><small>Role</small><b>Frontend Developer &amp; UI/UX Designer</b></div><div><small>Year</small><b>2026</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a><a class="slide" href="project5.html"><div class="ph " data-file="image/img17.jpeg"><img src="image/img17.jpeg" alt="Piflix" onerror="this.remove()"></div><div class="sbody"><span class="badge">05</span><h3 class="pname">Piflix</h3><p class="pcat">Machine Learning Website</p><div class="facts"><div><small>Role</small><b>Frontend Developer &amp; UI/UX Designer</b></div><div><small>Year</small><b>2026</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a><a class="slide" href="project6.html"><div class="ph " data-file="image/img21.jpeg"><img src="image/img21.jpeg" alt="Portfolio" onerror="this.remove()"></div><div class="sbody"><span class="badge">06</span><h3 class="pname">Portfolio</h3><p class="pcat">Portfolio Website</p><div class="facts"><div><small>Role</small><b>Frontend Developer</b></div><div><small>Year</small><b>2026</b></div></div><span class="go">View case study<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span></div></a></div><div class="sctl"><button aria-label="Show project 1"></button><button aria-label="Show project 2"></button><button aria-label="Show project 3"></button><button aria-label="Show project 4"></button><button aria-label="Show project 5"></button><button aria-label="Show project 6"></button></div>
-<div class="cta-row"><a class="btn" href="projects.html">View all projects &rarr;</a>
-<a class="btn ghost" href="https://github.com/P1caro" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>GitHub</a></div></section></main>
-<footer><div class="wrap">
-<div class="ftop"><div><p class="spread-wide"><span>T</span><span>H</span><span>A</span><span>N</span><span>K</span><span>S</span><span>&nbsp;</span><span>F</span><span>O</span><span>R</span><span>&nbsp;</span><span>S</span><span>T</span><span>O</span><span>P</span><span>P</span><span>I</span><span>N</span><span>G</span><span>&nbsp;</span><span>B</span><span>Y</span></p>
-<h2>Take a look at what I&rsquo;ve built.</h2>
-<a class="btn" href="projects.html">Explore my projects &rarr;</a></div>
-<div class="fnav"><strong>Navigate</strong><a href="index.html">Home</a><a href="index.html#about">About</a>
-<a href="index.html#background">Education &amp; Experience</a><a href="projects.html">My Project</a></div></div>
-<div class="fcards"><a class="fc" href="https://wa.me/6287820060810" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.3-2-1-.8.7c-.9-.4-1.7-1.2-2.1-2.1l.7-.8-1-2z"/></svg><div><small>WhatsApp</small><span>+62 878-2006-0810</span></div></a><a class="fc" href="mailto:pierochristian10@gmail.com"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><div><small>Email</small><span>pierochristian10@gmail.com</span></div></a><a class="fc" href="https://github.com/P1caro" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg><div><small>GitHub</small><span>P1caro</span></div></a><a class="fc" href="https://www.linkedin.com/in/piero-christian-ronaldo-728194326/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><div><small>LinkedIn</small><span>Piero Christian Ronaldo</span></div></a><a class="fc" href="https://www.instagram.com/piewuo/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><div><small>Instagram</small><span>@piewuo</span></div></a></div>
-<div class="foot"><span>&copy; 2026 Piero Christian Ronaldo</span><span>Tangerang, Banten, Indonesia</span><span>Built with HTML, CSS &amp; JavaScript</span></div>
-</div></footer><script src="js/main.js"></script></body></html>
+      <section id="work">
+        <p class="label rv">Projects</p>
+        <h2 class="rv" style="margin-top: 16px">My Project</h2>
+        <div class="slider rv">
+          <a class="slide" href="project1.html"
+            ><div class="ph" data-file="image/img1.jpeg">
+              <img
+                src="image/img1.jpeg"
+                alt="Digimart"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">01</span>
+              <h3 class="pname">Digimart</h3>
+              <p class="pcat">Frontend Website</p>
+              <div class="facts">
+                <div><small>Role</small><b>Frontend Developer</b></div>
+                <div><small>Year</small><b>2025</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div></a
+          ><a class="slide" href="project2.html"
+            ><div class="ph" data-file="image/img5.jpeg">
+              <img
+                src="image/img5.jpeg"
+                alt="VSTravel"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">02</span>
+              <h3 class="pname">VSTravel</h3>
+              <p class="pcat">Frontend Website</p>
+              <div class="facts">
+                <div><small>Role</small><b>Full-Stack Developer</b></div>
+                <div><small>Year</small><b>2025</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div></a
+          ><a class="slide" href="project3.html"
+            ><div class="ph" data-file="image/img9.jpeg">
+              <img
+                src="image/img9.jpeg"
+                alt="GeneMix"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">03</span>
+              <h3 class="pname">GeneMix</h3>
+              <p class="pcat">Bioinformatics Website</p>
+              <div class="facts">
+                <div><small>Role</small><b>Full-Stack Developer</b></div>
+                <div><small>Year</small><b>2026</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div></a
+          ><a class="slide" href="project4.html"
+            ><div class="ph" data-file="image/img13.jpeg">
+              <img
+                src="image/img13.jpeg"
+                alt="Malaria Detection App"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">04</span>
+              <h3 class="pname">Malaria Detection App</h3>
+              <p class="pcat">Computer Vision Website</p>
+              <div class="facts">
+                <div>
+                  <small>Role</small
+                  ><b>Frontend Developer &amp; UI/UX Designer</b>
+                </div>
+                <div><small>Year</small><b>2026</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div></a
+          ><a class="slide" href="project5.html"
+            ><div class="ph" data-file="image/img17.jpeg">
+              <img
+                src="image/img17.jpeg"
+                alt="Piflix"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">05</span>
+              <h3 class="pname">Piflix</h3>
+              <p class="pcat">Machine Learning Website</p>
+              <div class="facts">
+                <div>
+                  <small>Role</small
+                  ><b>Frontend Developer &amp; UI/UX Designer</b>
+                </div>
+                <div><small>Year</small><b>2026</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div></a
+          ><a class="slide" href="project6.html"
+            ><div class="ph" data-file="image/img21.jpeg">
+              <img
+                src="image/img21.jpeg"
+                alt="Portfolio"
+                onerror="this.remove()"
+              />
+            </div>
+            <div class="sbody">
+              <span class="badge">06</span>
+              <h3 class="pname">Portfolio</h3>
+              <p class="pcat">Portfolio Website</p>
+              <div class="facts">
+                <div><small>Role</small><b>Frontend Developer</b></div>
+                <div><small>Year</small><b>2026</b></div>
+              </div>
+              <span class="go"
+                >View case study<svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span></div
+          ></a>
+        </div>
+        <div class="sctl">
+          <button aria-label="Show project 1"></button
+          ><button aria-label="Show project 2"></button
+          ><button aria-label="Show project 3"></button
+          ><button aria-label="Show project 4"></button
+          ><button aria-label="Show project 5"></button
+          ><button aria-label="Show project 6"></button>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="projects.html">View all projects &rarr;</a>
+          <a
+            class="btn ghost"
+            href="https://github.com/P1caro"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              />
+              <path d="M9 18c-4.51 2-5-2-7-2" /></svg
+            >GitHub</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap">
+        <div class="ftop">
+          <div>
+            <p class="spread-wide">
+              <span>T</span><span>H</span><span>A</span><span>N</span
+              ><span>K</span><span>S</span><span>&nbsp;</span><span>F</span
+              ><span>O</span><span>R</span><span>&nbsp;</span><span>S</span
+              ><span>T</span><span>O</span><span>P</span><span>P</span
+              ><span>I</span><span>N</span><span>G</span><span>&nbsp;</span
+              ><span>B</span><span>Y</span>
+            </p>
+            <h2>Take a look at what I&rsquo;ve built.</h2>
+            <a class="btn" href="projects.html">Explore my projects &rarr;</a>
+          </div>
+          <div class="fnav">
+            <strong>Navigate</strong><a href="index.html">Home</a
+            ><a href="index.html#about">About</a>
+            <a href="index.html#background">Education &amp; Experience</a
+            ><a href="projects.html">My Project</a>
+          </div>
+        </div>
+        <div class="fcards">
+          <a
+            class="fc"
+            href="https://wa.me/6287820060810"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+              <path
+                d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.3-2-1-.8.7c-.9-.4-1.7-1.2-2.1-2.1l.7-.8-1-2z"
+              />
+            </svg>
+            <div><small>WhatsApp</small><span>+62 878-2006-0810</span></div></a
+          ><a class="fc" href="mailto:pierochristian10@gmail.com"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-10 6L2 7" />
+            </svg>
+            <div>
+              <small>Email</small><span>pierochristian10@gmail.com</span>
+            </div></a
+          ><a
+            class="fc"
+            href="https://github.com/P1caro"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+            <div><small>GitHub</small><span>P1caro</span></div></a
+          ><a
+            class="fc"
+            href="https://www.linkedin.com/in/piero-christian-ronaldo-728194326/"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            <div>
+              <small>LinkedIn</small><span>Piero Christian Ronaldo</span>
+            </div></a
+          ><a
+            class="fc"
+            href="https://www.instagram.com/piewuo/"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <path d="M17.5 6.5h.01" />
+            </svg>
+            <div><small>Instagram</small><span>@piewuo</span></div></a
+          >
+        </div>
+        <div class="foot">
+          <span>&copy; 2026 Piero Christian Ronaldo</span
+          ><span>Tangerang, Banten, Indonesia</span
+          ><span>Built with HTML, CSS &amp; JavaScript</span>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
